@@ -1,7 +1,7 @@
 # Vue.js + Typescript + Visual Studio Code
 
 ## netlify link:
-https://sharp-shannon-46b4ab.netlify.com/
+https://ecstatic-swirles-d68c4f.netlify.com/
 
 ## Fejlesztői környezet telepítése, beállítása (Windows)
 1.  Node.js letöltése, telepítése:<br>
