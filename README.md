@@ -6,7 +6,8 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 ## Fejlesztői környezet telepítése, beállítása (Windows)
 1.  Node.js letöltése, telepítése:<br>
     https://nodejs.org/en/download/
-2.  Node.js command prompt, globális Node.js csomag(ok) telepítése:<br>
+2.  Command prompt, npm frissítése, globális Node.js csomag(ok) telepítése:<br>
+    "npm install -g npm@next"
     "npm install -g @vue/cli" parancsal<br>
     "npm install -g @vue/cli-init" parancsal<br>
 2.  Git for windows telepítése (opcionális, git-hez):<br>
