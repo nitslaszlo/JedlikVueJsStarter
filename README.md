@@ -4,7 +4,7 @@
 https://ecstatic-swirles-d68c4f.netlify.com/
 
 ## Fejlesztői környezet telepítése, beállítása (Windows)
-1.  Node.js letöltése, telepítése:<br>
+1.  Node.js (node-v8.12.0-x64.msi) letöltése, telepítése:<br>
     https://nodejs.org/en/download/
 2.  Command prompt, npm frissítése, globális Node.js csomag(ok) telepítése:<br>
     "npm install -g npm@next" parancsal<br>
