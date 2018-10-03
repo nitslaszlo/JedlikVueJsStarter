@@ -42,6 +42,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
      - gépel: "delete" > parancs: "Delete Line" > hozzárendel: Ctrl-L
      - opcionális: további billentyűkombinációk hozzárendelése tetszés szerint
 7.  "Vue.js devtools" Chrome bővítmény telepítése, Chrome böngésző újraindítása
+    Nyomkövetéskor (F5) induló Chrome-nál is telepíteni kell! Link:<br>
     https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
 8.  Opcionális: VSCode beállítása: lsd. az oldal végén
 
