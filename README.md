@@ -4,10 +4,10 @@
 https://ecstatic-swirles-d68c4f.netlify.com/
 
 ## Fejlesztői környezet telepítése, beállítása (Windows)
-1.  Node.js letöltése, telepítése:<br>
+1.  Node.js (node-v8.12.0-x64.msi) letöltése, telepítése:<br>
     https://nodejs.org/en/download/
 2.  Command prompt, npm frissítése, globális Node.js csomag(ok) telepítése:<br>
-    "npm install -g npm@next"
+    "npm install -g npm@next" parancsal<br>
     "npm install -g @vue/cli" parancsal<br>
     "npm install -g @vue/cli-init" parancsal<br>
 2.  Git for windows telepítése (opcionális, git-hez):<br>
@@ -42,6 +42,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
      - gépel: "delete" > parancs: "Delete Line" > hozzárendel: Ctrl-L
      - opcionális: további billentyűkombinációk hozzárendelése tetszés szerint
 7.  "Vue.js devtools" Chrome bővítmény telepítése, Chrome böngésző újraindítása
+    Nyomkövetéskor (F5) induló Chrome-nál is telepíteni kell! Link:<br>
     https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
 8.  Opcionális: VSCode beállítása: lsd. az oldal végén
 
