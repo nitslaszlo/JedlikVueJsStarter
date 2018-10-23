@@ -9,8 +9,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 2.  Command prompt, npm frissítése, globális Node.js csomag(ok) telepítése:<br>
     "npm install -g npm@next" parancsal<br>
     "npm install -g @vue/cli" parancsal<br>
-    "npm install -g @vue/cli-init" parancsal<br>
-    "npm install -g eslint" parancsal
+    "npm install -g @vue/cli-init" parancsal
 2.  Git for windows telepítése (opcionális, git-hez):<br>
     https://git-for-windows.github.io/
 3.  Visual Studio Code (User Installer) telepítése:<br>
