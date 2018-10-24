@@ -23,5 +23,37 @@
     "eslint-plugin-vue": "^5.0.0-beta.3",
     "typescript": "~3.0.3",
     "vue-template-compiler": "^2.5.17"
-  }
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/recommended",
+      "@vue/prettier",
+      "@vue/typescript"
+    ],
+    "rules": {
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "vue/html-closing-bracket-newline": [
+        "error",
+        {
+          "singleline": "never",
+          "multiline": "never"
+        }
+      ]
+    },
+    "parserOptions": {
+      "parser": "typescript-eslint-parser"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
