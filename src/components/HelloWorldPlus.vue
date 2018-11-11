@@ -1,16 +1,28 @@
 <template>
   <div id="app">
-    <p>Kérem a neved: <input type = "text" v-model = "nev" /></p>
-    <h1>Hello {{nev}}{{felkialtojelek}}</h1>
-    <p>Felkiáltójelek száma: {{felkialtojelDarab}}</p>
-    <button v-on:click="OnClick('+')" v-bind:disabled="felkialtojelDarab == 10">Plus</button>
-    <button v-on:click="OnClick('-')"  v-bind:disabled="felkialtojelDarab == 1">Minus</button>
+    <p>Kérem a neved: 
+      <input
+        v-model="nev"
+        type = "text"></p>
+    <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
+    <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
+    <button
+      :disabled="felkialtojelDarab == 10"
+      @click="OnClick('+')">Plus</button>
+    <button
+      :disabled="felkialtojelDarab == 1"
+      @click="OnClick('-')">Minus</button>
     <ol>
-      <li v-for="nap in  napok" v-bind:key="nap">{{nap}}</li>
+      <li 
+        v-for="nap in napok" 
+        :key="nap">{{ nap }}</li>
     </ol>
-    <p>Nap: <input type = "text" v-model = "inputNap" /></p>
-    <button v-on:click="HozzadNap" >Nap hozzáadása</button>
-    <button v-on:click="TorolNap" >Nap törlése</button>
+    <p>Nap: 
+      <input
+        v-model="inputNap"
+        type = "text"></p>
+    <button @click="HozzadNap">Nap hozzáadása</button>
+    <button @click="TorolNap">Nap törlése</button>
   </div>
 </template>
 
