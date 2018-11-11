@@ -40,13 +40,13 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Formatting Toggle<br>
     https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle
 
-    - JavaScript (ES6) code snippets
+    - JavaScript (ES6) code snippets<br>
     https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
 
     - Npm<br>
     https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script 
 
-    - Npm Intellisense
+    - Npm Intellisense<br>
     https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
 
     - Prettier formatter for Visual Studio Code<br>
