@@ -22,18 +22,45 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Ismétlődő PATH bejegyzések törlése a Rendszeváltozóknál
     - Új bejegyzések (felhasználói) hozzáadása, ha hiányoznak (idézőjelek nélkül):
         - "C:\Program Files\nodejs\"
+        - "C:\Program Files\Git\cmd"
         - "%LocalAppData%\Programs\Microsoft VS Code\bin"
         - "%APPDATA%\npm"
 5.  VSCode futtatása, Visual Studio Extensions telepítése: Ctrl-Shift-X<br>
-    Kiterjesztés keresése, telepítés:<br>
-    - Vue.js Extension Pack by Muhammad Ubaid Raza<br>
-    https://marketplace.visualstudio.com/items?itemName=mubaidr.vuejs-extension-pack
+     Javasolt kiterjesztések keresése, telepítés:<br>
+
+    - Auto Rename Tag<br>
+    https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+
     - Debugger for Chrome<br>
     https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
-    - vscode-icons<br>
-    https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons
+
+    - ESLint<br>
+    https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+    - Formatting Toggle<br>
+    https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle
+
+    - JavaScript (ES6) code snippets
+    https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
+
+    - Npm<br>
+    https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script 
+
+    - Npm Intellisense
+    https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
+
+    - Prettier formatter for Visual Studio Code<br>
+    https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+    - Vetur<br>
+    https://marketplace.visualstudio.com/items?itemName=octref.vetur
+
+    - Vue Peek<br>
+    https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek
+
     - vscode-pdf<br>
-    https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf
+    https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf<br>
+
     - további kiterjesztések telepítése igény szerint
 6.  Billentyűkombinációk beállítása (opcionális):<br> 
     File\Preferences\Keyboard Shortcuts menüvel, vagy Ctrl-K majd Ctrl-S<br>
