@@ -15,17 +15,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 3.  Visual Studio Code (User Installer) telepítése:<br>
     https://code.visualstudio.com/Download<br>
     (User installer: "%LocalAppData%\Programs\Microsoft VS Code\bin" települ!)
-4.  Jedlik AD hiba - PATH "megtelik..."
-    Keresési útvonal (path) bővítése, ha a parancssorból (CMD.EXE) kiadott "npm", "vue" vagy<br>
-    "code ." parancs nem található:<br>
-    - Vezérlőpult/Rendszer/Speciális rendszerbeállítások/Speciális fül/Környezeti változók/Path/Rendszerváltozók
-    - Ismétlődő PATH bejegyzések törlése a Rendszeváltozóknál
-    - Új bejegyzések (felhasználói) hozzáadása, ha hiányoznak (idézőjelek nélkül):
-        - "C:\Program Files\nodejs\"
-        - "C:\Program Files\Git\cmd"
-        - "%LocalAppData%\Programs\Microsoft VS Code\bin"
-        - "%APPDATA%\npm"
-5.  VSCode futtatása, Visual Studio Extensions telepítése: Ctrl-Shift-X<br>
+4.  VSCode futtatása, Visual Studio Extensions telepítése: Ctrl-Shift-X<br>
      Javasolt kiterjesztések keresése, telepítés:<br>
 
     - Auto Rename Tag<br>
@@ -49,7 +39,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Npm Intellisense<br>
     https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
 
-    - Prettier formatter for Visual Studio Code<br>
+    - Prettier Code formatter for Visual Studio Code<br>
     https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
     - Vetur<br>
@@ -58,20 +48,17 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Vue Peek<br>
     https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek
 
-    - vscode-pdf<br>
-    https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf<br>
-
     - további kiterjesztések telepítése igény szerint
-6.  Billentyűkombinációk beállítása (opcionális):<br> 
+5.  Billentyűkombinációk beállítása (opcionális):<br> 
     File\Preferences\Keyboard Shortcuts menüvel, vagy Ctrl-K majd Ctrl-S<br>
     Parancs keresése: gépeléssel<br>
     Hozzárendelés, módosítás: "ceruza" ikonra kattíntással, törlés: Del bill.<br>
      - gépel: "delete" > parancs: "Delete Line" > hozzárendel: Ctrl-L
      - opcionális: további billentyűkombinációk hozzárendelése tetszés szerint
-7.  "Vue.js devtools" Chrome bővítmény telepítése, Chrome böngésző újraindítása
+6.  "Vue.js devtools" Chrome bővítmény telepítése, Chrome böngésző újraindítása
     Nyomkövetéskor (F5) induló Chrome-nál is telepíteni kell! Link:<br>
     https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
-8.  Opcionális: VSCode beállítása: lsd. az oldal végén
+7.  Opcionális: VSCode beállítása: lsd. az oldal végén
 
 ## Új projekt létrehozása
 1. CMD.EXE (Parancssor futtatása)
@@ -95,9 +82,10 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Vagy CMD ablakból: CD my-first-vuejs-app majd "code ."
 5. ESLint szábályok bekapcsolása<br>
     Alapértelmezetten a szabályok (rules) ki vannak kapcsolva.<br>
-    Bekapcsolni a .eslintrc.js állományban lehet őket a rules szekcióban<br>
+    Bekapcsolni a package.json állományokban lehet őket a eslintConfig\rules szekcióban<br>
     Szabályok és leírásuk: https://eslint.org/docs/rules/
-
+6. vue.config.js, package.json, tsconfig.json, .gitignore, launch.json, settings.json, tasks.json<br>
+   állományok létrehozása/beállítása a "starter" szerint
 
 
 ## Fejlesztés, tesztelés
@@ -112,13 +100,13 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 3.  Output: http://localhost:8080/
 4.  Forrás állományok (pl.: *.ts, *.vue, ...) létrehozása, meglévők szerkesztése<br>
 5.  Futtatás, nyomkövetés (ocionális):<br>
-    Töréspontok elhelyezése helyett stabilabb a "debugger;" parancs elhelyezése a forráskódban.<br>
+    Töréspontok elhelyezése, vagy a "debugger;" parancs elhelyezése a forráskódban.<br>
     Nyomkövetés indítása: F5-el<br>
     Első nyomkövetésnél: Select environment -> Chrome<br>
     Majd: launch.json beállítások bővítése: "sourceMaps": true<br>
 6.  Terjesztési verzió fordítása új terminál ablakból (+ ikonnal is lehet új ablakot nyitni): (opcionális)<br>
     "npm run build"
-7.  Formázási hibák ellenőrzése: (opcionális)<br>
+7.  Formázási hibák ellenőrzése és javítása: (opcionális)<br>
     "npm run lint"
 
 
@@ -157,3 +145,14 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 4. Preferences: "Open User Settings" a felhasználónált tárolt beállításokhoz<br>
    Konfig fájl workspace: projekt/.vscode/settings.json<br>
    Konfig fájl user: c:/Users/nitslaszlo/AppData/Roaming/Code/User/settings.json
+
+## Jedlik AD hiba - PATH "megtelik..."
+    Keresési útvonal (path) bővítése, ha a parancssorból (CMD.EXE) kiadott "npm", "vue" vagy<br>
+    "code ." parancs nem található:<br>
+    - Vezérlőpult/Rendszer/Speciális rendszerbeállítások/Speciális fül/Környezeti változók/Path/Rendszerváltozók
+    - Ismétlődő PATH bejegyzések törlése a Rendszeváltozóknál
+    - Új bejegyzések (felhasználói) hozzáadása, ha hiányoznak (idézőjelek nélkül):
+        - "C:\Program Files\nodejs\"
+        - "C:\Program Files\Git\cmd"
+        - "%LocalAppData%\Programs\Microsoft VS Code\bin"
+        - "%APPDATA%\npm"
