@@ -3,7 +3,6 @@
     "editor.minimap.enabled": false,
     "eslint.validate": [
         "typescript",
-        "html",
         "vue"
     ],
     "typescript.tsdk": "node_modules\\typescript\\lib"
