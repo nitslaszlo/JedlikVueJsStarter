@@ -4,7 +4,7 @@
 https://ecstatic-swirles-d68c4f.netlify.com/
 
 ## Fejlesztői környezet telepítése, beállítása (Windows)
-1.  Node.js (node-v8.12.0-x64.msi) letöltése, telepítése:<br>
+1.  Node.js (pl.: node-v10.15.0-x64.msi) letöltése, telepítése:<br>
     https://nodejs.org/en/download/
 2.  Command prompt, npm frissítése, globális Node.js csomag(ok) telepítése:<br>
     "npm install -g npm@next" parancsal<br>
@@ -50,9 +50,9 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 
     - további kiterjesztések telepítése igény szerint
 5.  Billentyűkombinációk beállítása (opcionális):<br> 
-    File\Preferences\Keyboard Shortcuts menüvel, vagy Ctrl-K majd Ctrl-S<br>
+    File\Preferences\Keyboard Shortcuts menüvel<br>
     Parancs keresése: gépeléssel<br>
-    Hozzárendelés, módosítás: "ceruza" ikonra kattíntással, törlés: Del bill.<br>
+    Hozzárendelés, módosítás: "ceruza" ikonra kattíntással, törlés: Delete bill.<br>
      - gépel: "delete" > parancs: "Delete Line" > hozzárendel: Ctrl-L
      - opcionális: további billentyűkombinációk hozzárendelése tetszés szerint
 6.  "Vue.js devtools" Chrome bővítmény telepítése, Chrome böngésző újraindítása
@@ -85,7 +85,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     Bekapcsolni a package.json állományokban lehet őket a eslintConfig\rules szekcióban<br>
     Szabályok és leírásuk: https://eslint.org/docs/rules/
 6. vue.config.js, package.json, tsconfig.json, .gitignore, launch.json, settings.json, tasks.json<br>
-   állományok létrehozása/beállítása a "starter" szerint
+   állományok létrehozása/beállítása a "jedlikes starter template" szerint
 
 
 ## Fejlesztés, tesztelés
