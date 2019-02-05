@@ -30,13 +30,16 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Formatting Toggle<br>
     https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle
 
+    - GitLens<br>
+    https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+
     - JavaScript (ES6) code snippets<br>
     https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
 
-    - Npm<br>
+    - npm<br>
     https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script 
 
-    - Npm Intellisense<br>
+    - npm Intellisense<br>
     https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
 
     - Prettier Code formatter for Visual Studio Code<br>
@@ -44,6 +47,9 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 
     - Vetur<br>
     https://marketplace.visualstudio.com/items?itemName=octref.vetur
+
+    - vscode-pdf
+    https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf
 
     - Vue Peek<br>
     https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek
