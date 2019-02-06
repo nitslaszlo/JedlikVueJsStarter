@@ -6,10 +6,10 @@
     </p>
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
-    <button :disabled="felkialtojelDarab == 10" @click="OnClick('+')">
+    <button :disabled="felkialtojelDarab == 10" @click="onClick('+')">
       Plus
     </button>
-    <button :disabled="felkialtojelDarab == 1" @click="OnClick('-')">
+    <button :disabled="felkialtojelDarab == 1" @click="onClick('-')">
       Minus
     </button>
     <ol>
@@ -19,8 +19,8 @@
       Nap:
       <input v-model="inputNap" type="text" />
     </p>
-    <button @click="HozzadNap">Nap hozzáadása</button>
-    <button @click="TorolNap">Nap törlése</button>
+    <button @click="hozzadNap">Nap hozzáadása</button>
+    <button @click="torolNap">Nap törlése</button>
   </div>
 </template>
 
@@ -43,14 +43,14 @@ export default class HelloWorldPlus extends Vue {
     this.inputNap = "";
   }
 
-  private OnClick (művelet: string): void {
+  private onClick (művelet: string): void {
     if (művelet === "+" && this.felkialtojelDarab < 10) this.felkialtojelDarab++;
     else if (művelet === "-" && this.felkialtojelDarab > 1) {
       this.felkialtojelDarab--;
     }
   }
 
-  private HozzadNap (): void {
+  private hozzadNap (): void {
     let joNap = [
       "hétfő",
       "kedd",
@@ -66,7 +66,7 @@ export default class HelloWorldPlus extends Vue {
     this.inputNap = "";
   }
 
-  private TorolNap (): void {
+  private torolNap (): void {
     this.napok = this.napok.filter(i => i !== this.inputNap);
     this.inputNap = "";
   }
