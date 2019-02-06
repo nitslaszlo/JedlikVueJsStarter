@@ -2,7 +2,7 @@
   <div id="app">
     <p>
       Kérem a neved:
-      <input v-model="nev" type="text" />
+      <input v-model="nev" type="text"/>
     </p>
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
@@ -35,7 +35,7 @@ export default class HelloWorldPlus extends Vue {
   private napok = ["hétfő", "kedd", "szerda"];
   private inputNap: string;
 
-  constructor() {
+  constructor () {
     super();
     this.felkialtojelDarab = 3;
     this.nev = "Jedlik Ányos";
@@ -43,13 +43,14 @@ export default class HelloWorldPlus extends Vue {
     this.inputNap = "";
   }
 
-  private OnClick(művelet: string): void {
-    if (művelet == "+" && this.felkialtojelDarab < 10) this.felkialtojelDarab++;
-    else if (művelet == "-" && this.felkialtojelDarab > 1)
+  private OnClick (művelet: string): void {
+    if (művelet === "+" && this.felkialtojelDarab < 10) this.felkialtojelDarab++;
+    else if (művelet === "-" && this.felkialtojelDarab > 1) {
       this.felkialtojelDarab--;
+    }
   }
 
-  private HozzadNap(): void {
+  private HozzadNap (): void {
     let joNap = [
       "hétfő",
       "kedd",
@@ -65,18 +66,18 @@ export default class HelloWorldPlus extends Vue {
     this.inputNap = "";
   }
 
-  private TorolNap(): void {
+  private TorolNap (): void {
     this.napok = this.napok.filter(i => i !== this.inputNap);
     this.inputNap = "";
   }
 
   // computed
-  private get iNap(): string {
+  private get iNap (): string {
     return this.inputNap.toLowerCase();
   }
 
   @Watch("felkialtojelDarab")
-  private onNumChanged(value: number, oldValue: number) {
+  private onNumChanged (value: number, oldValue: number) {
     this.felkialtojelek = "!".repeat(this.felkialtojelDarab);
   }
 }

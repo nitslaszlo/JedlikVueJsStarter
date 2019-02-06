@@ -42,9 +42,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - npm Intellisense<br>
     https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
 
-    - Prettier Code formatter for Visual Studio Code<br>
-    https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-
     - Vetur<br>
     https://marketplace.visualstudio.com/items?itemName=octref.vetur
 

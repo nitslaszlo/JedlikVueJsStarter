@@ -3,7 +3,10 @@
     "editor.minimap.enabled": false,
     "eslint.validate": [
         "typescript",
-        "vue"
-    ],
-    "typescript.tsdk": "node_modules\\typescript\\lib"
+        "javascriptreact",
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ]
 }
