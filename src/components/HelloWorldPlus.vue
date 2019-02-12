@@ -2,22 +2,18 @@
   <div id="app">
     <p>
       Kérem a neved:
-      <input v-model="nev" type="text"/>
+      <input v-model="nev" type="text">
     </p>
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
-    <button :disabled="felkialtojelDarab == 10" @click="onClick('+')">
-      Plus
-    </button>
-    <button :disabled="felkialtojelDarab == 1" @click="onClick('-')">
-      Minus
-    </button>
+    <button :disabled="felkialtojelDarab == 10" @click="onClick('+')">Plus</button>
+    <button :disabled="felkialtojelDarab == 1" @click="onClick('-')">Minus</button>
     <ol>
       <li v-for="nap in napok" :key="nap">{{ nap }}</li>
     </ol>
     <p>
       Nap:
-      <input v-model="inputNap" type="text" />
+      <input v-model="inputNap" type="text">
     </p>
     <button @click="hozzadNap">Nap hozzáadása</button>
     <button @click="torolNap">Nap törlése</button>
@@ -44,8 +40,9 @@ export default class HelloWorldPlus extends Vue {
   }
 
   private onClick (művelet: string): void {
-    if (művelet === "+" && this.felkialtojelDarab < 10) this.felkialtojelDarab++;
-    else if (művelet === "-" && this.felkialtojelDarab > 1) {
+    if (művelet === "+" && this.felkialtojelDarab < 10) {
+      this.felkialtojelDarab++;
+    } else if (művelet === "-" && this.felkialtojelDarab > 1) {
       this.felkialtojelDarab--;
     }
   }
