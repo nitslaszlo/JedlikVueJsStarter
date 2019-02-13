@@ -10,7 +10,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     "npm install -g npm@next" parancsal<br>
     "npm install -g @vue/cli" parancsal<br>
     "npm install -g @vue/cli-init" parancsal<br>
-    "npm install -g eslint" parancsal
+    "npm install -g tslint" parancsal
 2.  Git for windows telepítése (opcionális, git-hez):<br>
     https://git-for-windows.github.io/
 3.  Visual Studio Code (User Installer) telepítése:<br>
@@ -25,8 +25,11 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Debugger for Chrome<br>
     https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 
-    - ESLint<br>
-    https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+    - TSLint<br>
+    https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
+
+    - TSLint Vue (vscode-tslint-vue)
+    https://marketplace.visualstudio.com/items?itemName=prograhammer.tslint-vue
 
     - Formatting Toggle<br>
     https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle
@@ -74,21 +77,21 @@ https://ecstatic-swirles-d68c4f.netlify.com/
         - (*) Linter / Formatter
     - Use class-style component syntax? (Y/n) Y
     - Use Babel alongside TypeScript for auto-detected polyfills? (y/N) N
-    - Pick a linter / formatter config: ESLint + Prettier
+    - Pick a linter / formatter config: TSLint
     - Pick additional lint features: 
         - (*) Lint on save
-        - (*) Lint and fix on commit
+        - ( ) Lint and fix on commit
     - Where do you prefer placing config for Babel, PostCSS, ESLint, etc.?: In dedicated config files
     - Save this as a preset for future projects? (y/N) N
 4. VSCode indítása, projekt mappa (my-first-vuejs-app) megnyitása:
     - File\Open Folder... (vagy)
     - Project mappa helyi menüjéből: Open with Code
     - Vagy CMD ablakból: CD my-first-vuejs-app majd "code ."
-5. ESLint szábályok bekapcsolása<br>
-    Alapértelmezetten a szabályok (rules) ki vannak kapcsolva.<br>
-    Bekapcsolni a package.json állományokban lehet őket a eslintConfig\rules szekcióban<br>
-    Szabályok és leírásuk: https://eslint.org/docs/rules/
-6. vue.config.js, package.json, tsconfig.json, .gitignore, launch.json, settings.json, tasks.json<br>
+5. TSLint "recommended" szábályok módosítása<br>
+    A "recommended" szabályok (rules) vannak bekapcsolva.<br>
+    Módosítani a tslint.json állományokban lehet őket a rules szekcióban<br>
+    Szabályok és leírásuk: https://palantir.github.io/tslint/rules/
+6. package.json, tsconfig.json, .gitignore, launch.json, settings.json, tasks.json<br>
    állományok létrehozása/beállítása a "jedlikes starter template" szerint
 
 

@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <p>
-      Kérem a neved:
+    <p>Kérem a neved:
       <input v-model="nev" type="text">
     </p>
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
@@ -31,7 +30,7 @@ export default class HelloWorldPlus extends Vue {
   private napok = ["hétfő", "kedd", "szerda"];
   private inputNap: string;
 
-  constructor () {
+  constructor() {
     super();
     this.felkialtojelDarab = 3;
     this.nev = "Jedlik Ányos";
@@ -39,7 +38,7 @@ export default class HelloWorldPlus extends Vue {
     this.inputNap = "";
   }
 
-  private onClick (művelet: string): void {
+  private onClick(művelet: string): void {
     if (művelet === "+" && this.felkialtojelDarab < 10) {
       this.felkialtojelDarab++;
     } else if (művelet === "-" && this.felkialtojelDarab > 1) {
@@ -47,8 +46,8 @@ export default class HelloWorldPlus extends Vue {
     }
   }
 
-  private hozzadNap (): void {
-    let joNap = [
+  private hozzadNap(): void {
+    const joNap = [
       "hétfő",
       "kedd",
       "szerda",
@@ -63,18 +62,18 @@ export default class HelloWorldPlus extends Vue {
     this.inputNap = "";
   }
 
-  private torolNap (): void {
+  private torolNap(): void {
     this.napok = this.napok.filter(i => i !== this.inputNap);
     this.inputNap = "";
   }
 
   // computed
-  private get iNap (): string {
+  private get iNap(): string {
     return this.inputNap.toLowerCase();
   }
 
   @Watch("felkialtojelDarab")
-  private onNumChanged (value: number, oldValue: number) {
+  private onNumChanged(value: number, oldValue: number) {
     this.felkialtojelek = "!".repeat(this.felkialtojelDarab);
   }
 }
