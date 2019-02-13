@@ -152,14 +152,3 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 4. Preferences: "Open User Settings" a felhasználónált tárolt beállításokhoz<br>
    Konfig fájl workspace: projekt/.vscode/settings.json<br>
    Konfig fájl user: c:/Users/nitslaszlo/AppData/Roaming/Code/User/settings.json
-
-## Jedlik AD hiba - PATH "megtelik..."
-    Keresési útvonal (path) bővítése, ha a parancssorból (CMD.EXE) kiadott "npm", "vue" vagy<br>
-    "code ." parancs nem található:<br>
-    - Vezérlőpult/Rendszer/Speciális rendszerbeállítások/Speciális fül/Környezeti változók/Path/Rendszerváltozók
-    - Ismétlődő PATH bejegyzések törlése a Rendszeváltozóknál
-    - Új bejegyzések (felhasználói) hozzáadása, ha hiányoznak (idézőjelek nélkül):
-        - "C:\Program Files\nodejs\"
-        - "C:\Program Files\Git\cmd"
-        - "%LocalAppData%\Programs\Microsoft VS Code\bin"
-        - "%APPDATA%\npm"
