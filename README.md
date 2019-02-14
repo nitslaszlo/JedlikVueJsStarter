@@ -1,6 +1,6 @@
-# Vue.js + Typescript + Visual Studio Code
+# Vue.js + Typescript + GitHub + TSLint + Visual Studio Code
 
-## netlify link:
+## netlify link a program teszteléséhez:
 https://ecstatic-swirles-d68c4f.netlify.com/
 
 ## Fejlesztői környezet telepítése, beállítása (Windows)
