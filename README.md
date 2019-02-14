@@ -31,10 +31,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - TSLint Vue (vscode-tslint-vue)
     https://marketplace.visualstudio.com/items?itemName=prograhammer.tslint-vue
 
-    - Formatting Toggle<br>
-    https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle
-
-    - GitLens<br>
+    - GitLens (telepítése opcionális, kiterjesztett Git szolgáltatások)<br>
     https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 
     - JavaScript (ES6) code snippets<br>
@@ -49,7 +46,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Vetur<br>
     https://marketplace.visualstudio.com/items?itemName=octref.vetur
 
-    - LaTexT<br>
+    - LaTexT (telepítése opcionális, korrekt PDF olvasó)<br>
     https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop
 
     - Vue Peek<br>
