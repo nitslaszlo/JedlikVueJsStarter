@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <p>Kérem a neved:
+    <p>
+      Kérem a neved:
       <input v-model="nev" type="text">
     </p>
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
@@ -10,12 +11,11 @@
     <ol>
       <li v-for="nap in napok" :key="nap">{{ nap }}</li>
     </ol>
-    <p>
-      Nap:
+    <p>Nap:
       <input v-model="inputNap" type="text">
     </p>
-    <button @click="hozzadNap">Nap hozzáadása</button>
-    <button @click="torolNap">Nap törlése</button>
+    <button @click="hozzadNap()">Nap hozzáadása</button>
+    <button @click="torolNap()">Nap törlése</button>
   </div>
 </template>
 
