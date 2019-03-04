@@ -9,7 +9,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 2.  Command prompt, npm frissítése, globális Node.js csomag(ok) telepítése:<br>
     "npm install -g npm@next" parancsal<br>
     "npm install -g @vue/cli" parancsal<br>
-    "npm install -g @vue/cli-init" parancsal<br>
     "npm install -g tslint" parancsal
 2.  Git for windows telepítése (opcionális, git-hez):<br>
     https://git-for-windows.github.io/
@@ -46,9 +45,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Vetur<br>
     https://marketplace.visualstudio.com/items?itemName=octref.vetur
 
-    - LaTexT (telepítése opcionális, korrekt PDF olvasó)<br>
-    https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop
-
+   
     - Vue Peek<br>
     https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek
 
