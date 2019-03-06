@@ -4,12 +4,12 @@
 https://ecstatic-swirles-d68c4f.netlify.com/
 
 ## Fejlesztői környezet telepítése, beállítása (Windows)
-1.  Node.js (pl.: node-v10.15.1-x64.msi) letöltése, telepítése:<br>
+1.  Node.js (pl.: node-v10.15.2-x64.msi) letöltése, telepítése:<br>
     https://nodejs.org/en/download/
 2.  Command prompt, npm frissítése, globális Node.js csomag(ok) telepítése:<br>
-    "npm install -g npm@next" parancsal<br>
-    "npm install -g @vue/cli" parancsal<br>
-    "npm install -g tslint" parancsal
+    "npm install -g npm@next" paranccsal<br>
+    "npm install -g @vue/cli" paranccsal<br>
+    "npm install -g tslint" paranccsal
 2.  Git for windows telepítése (opcionális, git-hez):<br>
     https://git-for-windows.github.io/
 3.  Visual Studio Code (User Installer) telepítése:<br>
@@ -24,12 +24,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Debugger for Chrome<br>
     https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 
-    - TSLint<br>
-    https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
-
-    - TSLint Vue (vscode-tslint-vue)
-    https://marketplace.visualstudio.com/items?itemName=prograhammer.tslint-vue
-
     - GitLens (telepítése opcionális, kiterjesztett Git szolgáltatások)<br>
     https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 
@@ -42,6 +36,15 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - npm Intellisense<br>
     https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
 
+    - Spell Right
+    https://marketplace.visualstudio.com/items?itemName=ban.spellright
+
+    - TSLint<br>
+    https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
+    
+    - TSLint Vue (vscode-tslint-vue)
+    https://marketplace.visualstudio.com/items?itemName=prograhammer.tslint-vue
+
     - Vetur<br>
     https://marketplace.visualstudio.com/items?itemName=octref.vetur
 
@@ -53,7 +56,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 5.  Billentyűkombinációk beállítása (opcionális):<br> 
     File\Preferences\Keyboard Shortcuts menüvel<br>
     Parancs keresése: gépeléssel<br>
-    Hozzárendelés, módosítás: "ceruza" ikonra kattíntással, törlés: Delete bill.<br>
+    Hozzárendelés, módosítás: "ceruza" ikonra kattintással, törlés: Delete bill.<br>
      - gépel: "delete" > parancs: "Delete Line" > hozzárendel: Ctrl-L
      - opcionális: további billentyűkombinációk hozzárendelése tetszés szerint
 6.  "Vue.js devtools" Chrome bővítmény telepítése, Chrome böngésző újraindítása
@@ -81,7 +84,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - File\Open Folder... (vagy)
     - Project mappa helyi menüjéből: Open with Code
     - Vagy CMD ablakból: CD my-first-vuejs-app majd "code ."
-5. TSLint "recommended" szábályok módosítása<br>
+5. TSLint "recommended" szabályok módosítása<br>
     A "recommended" szabályok (rules) vannak bekapcsolva.<br>
     Módosítani a tslint.json állományokban lehet őket a rules szekcióban<br>
     Szabályok és leírásuk: https://palantir.github.io/tslint/rules/
