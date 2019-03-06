@@ -103,7 +103,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     (első indítás után, ha változás történik, akkor újrafordít)
 3.  Output: http://localhost:8080/
 4.  Forrás állományok (pl.: *.ts, *.vue, ...) létrehozása, meglévők szerkesztése<br>
-5.  Futtatás, nyomkövetés (ocionális):<br>
+5.  Futtatás, nyomkövetés (opcionális):<br>
     Töréspontok elhelyezése, vagy a "debugger;" parancs elhelyezése a forráskódban.<br>
     Nyomkövetés indítása: F5-el<br>
     Első nyomkövetésnél: Select environment -> Chrome<br>
@@ -121,7 +121,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 - https://github.com/vuejs/awesome-vue/blob/master/README.md
 
 ## Verziókezelés Git-el VS Code-ban (nagyon alap, opcionális):
-1. Github account létrehozása:<br>
+1. GitHub account létrehozása:<br>
    https://github.com/<br>
    (nitslaszlo az account név a példában)
 2. Git repository létrehozása:<br>
@@ -146,6 +146,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 1. Ctrl-Shift-P vagy F1
 2. "Preferen..." gépelése
 3. Preferences: "Open Workplace Settings" a projektben tárolt beállításokhoz (ez az erősebb) vagy
-4. Preferences: "Open User Settings" a felhasználónált tárolt beállításokhoz<br>
+4. Preferences: "Open User Settings" a felhasználónál tárolt beállításokhoz<br>
    Konfig fájl workspace: projekt/.vscode/settings.json<br>
    Konfig fájl user: c:/Users/nitslaszlo/AppData/Roaming/Code/User/settings.json
