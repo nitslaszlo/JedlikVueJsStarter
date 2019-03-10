@@ -48,7 +48,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Vetur<br>
     https://marketplace.visualstudio.com/items?itemName=octref.vetur
 
-   
     - Vue Peek<br>
     https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek
 
