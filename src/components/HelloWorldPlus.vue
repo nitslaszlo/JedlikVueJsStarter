@@ -6,7 +6,7 @@
     </p>
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
-    <button :disabled="felkialtojelDarab == 10" @click="onClick('+')">Plus</button>
+    <button v-bind:disabled="felkialtojelDarab == 10" v-on:click="onClick('+')">Plus</button>
     <button :disabled="felkialtojelDarab == 1" @click="onClick('-')">Minus</button>
     <ol>
       <li v-for="nap in napok" :key="nap">{{ nap }}</li>

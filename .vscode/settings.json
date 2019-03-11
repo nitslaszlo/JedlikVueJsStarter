@@ -32,7 +32,6 @@
         "markdown",
         "latex",
         "plaintext",
-        "typescript",
-        "vue"
+        "typescript"
     ]
 }
