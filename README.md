@@ -18,6 +18,9 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 4.  VSCode futtatása, Visual Studio Extensions telepítése: Ctrl-Shift-X<br>
      Javasolt kiterjesztések keresése, telepítés:<br>
 
+    - Add jsdoc comments<br>
+    https://marketplace.visualstudio.com/items?itemName=stevencl.addDocComments
+  
     - Auto Rename Tag<br>
     https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
 
@@ -30,19 +33,22 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - JavaScript (ES6) code snippets<br>
     https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
 
+    - Markdown All in One<br>
+    https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
+
     - npm<br>
     https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script 
 
     - npm Intellisense<br>
     https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
 
-    - Spell Right
+    - Spell Right<br>
     https://marketplace.visualstudio.com/items?itemName=ban.spellright
 
     - TSLint<br>
     https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
     
-    - TSLint Vue (vscode-tslint-vue)
+    - TSLint Vue (vscode-tslint-vue)<br>
     https://marketplace.visualstudio.com/items?itemName=prograhammer.tslint-vue
 
     - Vetur<br>
