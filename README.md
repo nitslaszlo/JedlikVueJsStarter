@@ -4,7 +4,7 @@
 https://ecstatic-swirles-d68c4f.netlify.com/
 
 ## Fejlesztői környezet telepítése, beállítása (Windows)
-1.  Node.js (pl.: node-v10.15.2-x64.msi) letöltése, telepítése:<br>
+1.  Node.js (pl.: node-v10.15.3-x64.msi) letöltése, telepítése:<br>
     https://nodejs.org/en/download/
 2.  Command prompt, npm frissítése, globális Node.js csomag(ok) telepítése:<br>
     "npm install -g npm@next" paranccsal<br>
@@ -101,9 +101,9 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 1.  VSCode indítása (utoljára megnyitott projektet visszatölti), vagy<br>
     Project mappa helyi menüből: Open with Code, vagy<br>
     VSCode indítása után File/Open Folder... menüpontba a project mappa (my-first-vuejs-app) megnyitása
-2.  Letöltött (github-clone, ZIP, stb) repók esetén a node csomagok telepítése új terminál ablakból (Ctr-Shift-ö):<br>
+2.  Letöltött (GitHub-clone, ZIP, stb.) repók esetén a node csomagok telepítése új terminál ablakból (Ctr-Shift-ö):<br>
     "npm install"
-2.  Fejlesztői fordítás új terminál ablakból (Ctr-Shift-ö):<br>
+2.  Fejlesztői fordítás új terminál ablakból (Ctrl-Shift-ö):<br>
     "npm run serve" (vagy Ctrl-Shift-B -> task.json kell a minta szerinti tartalommal)<br>
     (első indítás után, ha változás történik, akkor újrafordít)
 3.  Output: http://localhost:8080/
