@@ -18,9 +18,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 4.  VSCode futtatása, Visual Studio Extensions telepítése: Ctrl-Shift-X<br>
      Javasolt kiterjesztések keresése, telepítés:<br>
 
-    - Add jsdoc comments<br>
-    https://marketplace.visualstudio.com/items?itemName=stevencl.addDocComments
-  
     - Auto Rename Tag<br>
     https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
 
@@ -58,6 +55,7 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek
 
     - további kiterjesztések telepítése igény szerint
+    
 5.  Billentyűkombinációk beállítása (opcionális):<br> 
     File\Preferences\Keyboard Shortcuts menüvel<br>
     Parancs keresése: gépeléssel<br>
