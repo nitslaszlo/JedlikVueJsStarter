@@ -11,7 +11,8 @@
     <ol>
       <li v-for="nap in napok" :key="nap">{{ nap }}</li>
     </ol>
-    <p>Nap:
+    <p>
+      Nap:
       <input v-model="inputNap" type="text">
     </p>
     <button @click="hozzadNap()">Nap hozzáadása</button>
