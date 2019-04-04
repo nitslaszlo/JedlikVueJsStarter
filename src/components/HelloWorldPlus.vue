@@ -15,7 +15,7 @@
       Nap:
       <input v-model="inputNap" type="text">
     </p>
-    <button @click="hozzadNap()">Nap hozzáadása</button>
+    <button v-on:click="hozzadNap()">Nap hozzáadása</button>
     <button @click="torolNap()">Nap törlése</button>
   </div>
 </template>

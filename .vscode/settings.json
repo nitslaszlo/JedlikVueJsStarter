@@ -30,6 +30,7 @@
     ],
     "spellright.documentTypes": [
         "latex",
-        "plaintext"
+        "plaintext",
+        "typescript"
     ]
 }
