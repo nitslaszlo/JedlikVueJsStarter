@@ -1,20 +1,20 @@
 <template>
   <div id="app">
+    <!--prettyhtml-preserve-whitespace--> 
     <p>
-      Kérem a neved:
+      Kérem a   neved:
       <input v-model="nev" type="text">
     </p>
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
+    <!--prettyhtml-preserve-attribute-wrapping-->
     <button v-bind:disabled="felkialtojelDarab == 10" v-on:click="onClick('+')">Plus</button>
     <button :disabled="felkialtojelDarab == 1" @click="onClick('-')">Minus</button>
     <ol>
       <li v-for="nap in napok" :key="nap">{{ nap }}</li>
     </ol>
-    <p>
-      Nap:
-      <input v-model="inputNap" type="text">
-    </p>
+    <!--prettyhtml-ignore-->
+    <p> Nap:<input v-model="inputNap" type="text"></p>
     <button v-on:click="hozzadNap()">Nap hozzáadása</button>
     <button @click="torolNap()">Nap törlése</button>
   </div>
