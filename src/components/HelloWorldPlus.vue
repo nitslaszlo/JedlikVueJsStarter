@@ -26,6 +26,7 @@
     </b-row>
     <b-button variant="success" v-on:click="hozzadNap()">Nap hozzáadása</b-button>
     <b-button variant="danger" @click="torolNap()">Nap törlése</b-button>
+    
     <b-card title="Intézmény neve" img-src="https://www.jedlik.eu/images/stories/jedlik-1.png" img-alt="Image" img-top tag="article"
       style="max-width: 20rem;" class="mb-2">
       <b-card-text>
