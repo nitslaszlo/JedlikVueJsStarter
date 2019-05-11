@@ -153,3 +153,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 4. Preferences: "Open User Settings" a felhasználónál tárolt beállításokhoz<br>
    Konfig fájl workspace: projekt/.vscode/settings.json<br>
    Konfig fájl user: c:/Users/nitslaszlo/AppData/Roaming/Code/User/settings.json
+
+## Deploy on netlify.com
+lsd.: Deploy_on_netlify.pdf
