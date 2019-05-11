@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello World!"/>
-    <HelloWorldPlus/>
+    <HelloWorld msg="Hello World!" />
+    <HelloWorldPlus />
   </div>
 </template>
 
@@ -16,7 +16,7 @@ import HelloWorldPlus from "./components/HelloWorldPlus.vue";
     HelloWorldPlus
   }
 })
-export default class App extends Vue {}
+export default class App extends Vue { }
 </script>
 
 <style>
