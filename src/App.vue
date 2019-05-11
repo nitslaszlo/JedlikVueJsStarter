@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello World!" />
-    <HelloWorldPlus />
+    <b-container style="max-width: 800px;">
+      <HelloWorld msg="Hello World!" />
+      <HelloWorldPlus />
+    </b-container>
   </div>
 </template>
 

@@ -1,16 +1,38 @@
 <template>
   <div id="app">
-    <p>Kérem a neved: <input v-model="nev" type="text"></p>
+    <b-row>
+      <b-col md="auto">
+        <label for="nevInput">Kérem a neved:</label>
+      </b-col md="auto">
+      <b-col>
+        <b-form-input v-model="nev" id="nevInput" type="text"></b-form-input>
+      </b-col>
+    </b-row>
+
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
-    <button v-bind:disabled="felkialtojelDarab == 10" v-on:click="onClick('+')">Plus</button>
-    <button :disabled="felkialtojelDarab == 1" @click="onClick('-')">Minus</button>
+    <b-button variant="outline-primary" v-bind:disabled="felkialtojelDarab == 10" v-on:click="onClick('+')">Plus</b-button>
+    <b-button variant="outline-primary" :disabled="felkialtojelDarab == 1" @click="onClick('-')">Minus</b-button>
     <ol>
       <li v-for="nap in napok" :key="nap">{{ nap }}</li>
     </ol>
-    <p>Nap:<input v-model="inputNap" type="text"></p>
-    <button v-on:click="hozzadNap()">Nap hozzáadása</button>
-    <button @click="torolNap()">Nap törlése</button>
+    <b-row>
+      <b-col md="auto">
+        <label for="napInput">Kérem a nap nevét:</label>
+      </b-col md="auto">
+      <b-col>
+        <b-form-input v-model="inputNap" id="napInput" type="text"></b-form-input>
+      </b-col>
+    </b-row>
+    <b-button variant="success" v-on:click="hozzadNap()">Nap hozzáadása</b-button>
+    <b-button variant="danger" @click="torolNap()">Nap törlése</b-button>
+    <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article"
+      style="max-width: 20rem;" class="mb-2">
+      <b-card-text>
+        Some quick example text to build on the card title and make up the bulk of the card's content.
+      </b-card-text>
+      <b-button href="#" variant="primary">Go somewhere</b-button>
+    </b-card>
   </div>
 </template>
 

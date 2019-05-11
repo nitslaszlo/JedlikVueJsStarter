@@ -29,8 +29,7 @@
         "hu"
     ],
     "spellright.documentTypes": [
-        "latex",
-        "typescript"
+        "latex"
     ],
     "vetur.format.defaultFormatter.html": "js-beautify-html",
     "vetur.format.defaultFormatter.ts": "vscode-typescript",
