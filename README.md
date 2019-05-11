@@ -1,4 +1,4 @@
-# Vue.js + Typescript + GitHub + TSLint + Visual Studio Code
+# Vue.js + Typescript + GitHub + TSLint + Bootstrap4 +Visual Studio Code
 
 ## netlify link a program teszteléséhez:
 https://ecstatic-swirles-d68c4f.netlify.com/
@@ -21,6 +21,9 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 
     - Auto Rename Tag<br>
     https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+
+    - Beautify<br>
+    https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
 
     - Debugger for Chrome<br>
     https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
@@ -100,8 +103,8 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 1.  VSCode indítása (utoljára megnyitott projektet visszatölti), vagy<br>
     Project mappa helyi menüből: Open with Code, vagy<br>
     VSCode indítása után File/Open Folder... menüpontba a project mappa (my-first-vuejs-app) megnyitása
-2.  Letöltött (GitHub-clone, ZIP, stb.) repók esetén a node csomagok telepítése új terminál ablakból (Ctr-Shift-ö):<br>
-    "npm install"
+2.  Letöltött (GitHub-clone, ZIP) repók esetén a node csomagok telepítése új terminál ablakból (Ctr-Shift-ö):<br>
+    "npm install" vagy "npm i"
 2.  Fejlesztői fordítás új terminál ablakból (Ctrl-Shift-ö):<br>
     "npm run serve" (vagy Ctrl-Shift-B -> task.json kell a minta szerinti tartalommal)<br>
     (első indítás után, ha változás történik, akkor újrafordít)
