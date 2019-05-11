@@ -26,12 +26,13 @@
     </b-row>
     <b-button variant="success" v-on:click="hozzadNap()">Nap hozzáadása</b-button>
     <b-button variant="danger" @click="torolNap()">Nap törlése</b-button>
-    <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article"
+    <b-card title="Intézmény neve" img-src="https://www.jedlik.eu/images/stories/jedlik-1.png" img-alt="Image" img-top tag="article"
       style="max-width: 20rem;" class="mb-2">
       <b-card-text>
-        Some quick example text to build on the card title and make up the bulk of the card's content.
+        Győri Műszaki Szakképzési Centrum Jedlik Ányos Gépipari és Informatikai Szakgimnáziuma, Szakközépiskolája és
+        Kollégiuma
       </b-card-text>
-      <b-button href="#" variant="primary">Go somewhere</b-button>
+      <b-button href="https://www.jedlik.eu" variant="primary">Honlap</b-button>
     </b-card>
   </div>
 </template>
