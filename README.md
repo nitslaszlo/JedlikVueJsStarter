@@ -10,7 +10,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     "npm install -g npm@next" paranccsal<br>
     "npm install -g @vue/cli" paranccsal<br>
     "npm install -g tslint" paranccsal<br>
-    "npm install -g @starptech/prettyhtml
 2.  Git for windows telepítése (opcionális, git-hez):<br>
     https://git-for-windows.github.io/
 3.  Visual Studio Code (User Installer) telepítése:<br>
