@@ -26,14 +26,14 @@
     </b-row>
     <b-button variant="success" v-on:click="hozzadNap()">Nap hozzáadása</b-button>
     <b-button variant="danger" @click="torolNap()">Nap törlése</b-button>
-    
+
     <b-card title="Intézmény neve" img-src="https://www.jedlik.eu/images/stories/jedlik-1.png" img-alt="Image" img-top tag="article"
       style="max-width: 20rem;" class="mb-2">
       <b-card-text>
         Győri Műszaki Szakképzési Centrum Jedlik Ányos Gépipari és Informatikai Szakgimnáziuma, Szakközépiskolája és
         Kollégiuma
       </b-card-text>
-      <b-button href="https://www.jedlik.eu" variant="primary">Honlap</b-button>
+      <b-button href="https://www.jedlik.eu" variant="primary" target="_blank">Honlap</b-button>
     </b-card>
   </div>
 </template>
