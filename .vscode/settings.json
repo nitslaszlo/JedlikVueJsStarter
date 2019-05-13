@@ -8,7 +8,7 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "html.format.wrapLineLength": 0,
+    "html.format.wrapLineLength": 100,
     "files.autoSave": "afterDelay",
     "files.eol": "\r\n",
     "files.exclude": {
