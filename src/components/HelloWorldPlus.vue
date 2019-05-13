@@ -1,32 +1,46 @@
 <template>
-  <div class="m-5" id="app">
+  <div class="m-5"
+       id="app">
     <div class="input-group mb-3">
       <div class="input-group-prepend">
-        <span class="input-group-text" id="ig1">Kérem a neved</span>
+        <span class="input-group-text">Kérem a neved</span>
       </div>
-      <input type="text" class="form-control" aria-label="Default" aria-describedby="ig1" v-model="nev">
+      <input type="text"
+             class="form-control"
+             v-model="nev">
     </div>
 
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
-    <button type="button" class="btn m-2 btn-success" :disabled="felkialtojelDarab == 10"
-      v-on:click="onClick('+')">Plus</button>
-    <button type="button" class="btn btn-danger" :disabled="felkialtojelDarab == 1" v-on:click="onClick('-')">Minus
-    </button>
+    <button type="button"
+            class="btn m-2 btn-success"
+            :disabled="felkialtojelDarab == 10"
+            v-on:click="onClick('+')">Plus</button>
+    <button type="button"
+            class="btn btn-danger"
+            :disabled="felkialtojelDarab == 1"
+            v-on:click="onClick('-')">Minus</button>
     <ol>
-      <li v-for="nap in napok" :key="nap">{{ nap }}</li>
+      <li v-for="nap in napok"
+          :key="nap">{{ nap }}</li>
     </ol>
     <div class="input-group mb-3">
       <div class="input-group-prepend">
-        <span class="input-group-text" id="ig2">Kérem a nap nevét</span>
+        <span class="input-group-text">Kérem a nap nevét</span>
       </div>
-      <input type="text" class="form-control" aria-label="Default" aria-describedby="ig2" v-model="inputNap">
+      <input type="text"
+             class="form-control"
+             v-model="inputNap">
     </div>
 
-    <button type="button" class="btn mr-2 btn-success" :disabled="!joNapHozzadni(iNap)" @click="hozzadNap()">Nap
-      hozzáadása</button>
-    <button type="button" class="btn btn-danger" :disabled="!joNapTorolni(iNap)" @click="torolNap()">Nap
-      törlése</button>
+    <button type="button"
+            class="btn mr-2 btn-success"
+            :disabled="!joNapHozzadni(iNap)"
+            @click="hozzadNap()">Nap hozzáadása</button>
+    <button type="button"
+            class="btn btn-danger"
+            :disabled="!joNapTorolni(iNap)"
+            @click="torolNap()">Nap törlése</button>
 
   </div>
 </template>
