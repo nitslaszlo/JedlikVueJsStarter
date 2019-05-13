@@ -1,40 +1,31 @@
 <template>
-  <div id="app">
-    <b-row>
-      <b-col md="auto">
-        <label for="nevInput">Kérem a neved:</label>
-      </b-col md="auto">
-      <b-col>
-        <b-form-input v-model="nev" id="nevInput" type="text"></b-form-input>
-      </b-col>
-    </b-row>
+  <div class="m-5" id="app">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-default">Kérem a neved</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+        v-model="nev">
+    </div>
 
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
-    <b-button variant="outline-primary" v-bind:disabled="felkialtojelDarab == 10" v-on:click="onClick('+')">Plus</b-button>
-    <b-button variant="outline-primary" :disabled="felkialtojelDarab == 1" @click="onClick('-')">Minus</b-button>
+    <button type="button" class="btn m-2 btn-success" :disabled="felkialtojelDarab == 10" v-on:click="onClick('+')">Plus</button>
+    <button type="button" class="btn btn-danger" :disabled="felkialtojelDarab == 1" @click="onClick('-')">Minus</button>
     <ol>
       <li v-for="nap in napok" :key="nap">{{ nap }}</li>
     </ol>
-    <b-row>
-      <b-col md="auto">
-        <label for="napInput">Kérem a nap nevét:</label>
-      </b-col md="auto">
-      <b-col>
-        <b-form-input v-model="inputNap" id="napInput" type="text"></b-form-input>
-      </b-col>
-    </b-row>
-    <b-button variant="success" v-on:click="hozzadNap()">Nap hozzáadása</b-button>
-    <b-button variant="danger" @click="torolNap()">Nap törlése</b-button>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-default">Kérem a nap nevét</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+        v-model="inputNap">
+    </div>
 
-    <b-card title="Intézmény neve" img-src="https://www.jedlik.eu/images/stories/jedlik-1.png" img-alt="Image" img-top tag="article"
-      style="max-width: 20rem;" class="mb-2">
-      <b-card-text>
-        Győri Műszaki Szakképzési Centrum Jedlik Ányos Gépipari és Informatikai Szakgimnáziuma, Szakközépiskolája és
-        Kollégiuma
-      </b-card-text>
-      <b-button href="https://www.jedlik.eu" variant="primary" target="_blank">Honlap</b-button>
-    </b-card>
+    <button type="button" class="btn mr-2 btn-success" @click="hozzadNap()">Nap hozzáadása</button>
+    <button type="button" class="btn btn-danger" @click="torolNap()">Nap törlése</button>
+
   </div>
 </template>
 
@@ -101,9 +92,5 @@ export default class HelloWorldPlus extends Vue {
 <style scoped>
 h1 {
   color: blue;
-}
-
-button {
-  margin: 5px;
 }
 </style>

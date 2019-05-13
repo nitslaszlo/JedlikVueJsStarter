@@ -35,7 +35,7 @@
     "vetur.format.defaultFormatter.ts": "vscode-typescript",
     "vetur.format.defaultFormatterOptions": {
         "js-beautify-html": {
-            "wrap_line_length": 120,
+            "wrap_line_length": 100,
             "wrap_attributes": "auto"
         }
     }
