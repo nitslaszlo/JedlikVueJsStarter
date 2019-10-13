@@ -10,6 +10,8 @@
                        size="4x" />
     <font-awesome-icon :icon="[ 'fab', 'vuejs' ]"
                        size="8x" />
+    <font-awesome-icon :icon="[ 'far', 'angry' ]"
+                       size="8x" />
 
     <h1>Rotation</h1>
 
