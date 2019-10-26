@@ -9,7 +9,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 2.  Command prompt, npm frissítése, globális Node.js csomag(ok) telepítése:<br>
     "npm install -g npm@next" paranccsal<br>
     "npm install -g @vue/cli" paranccsal<br>
-    "npm install -g tslint" paranccsal<br>
 2.  Git for windows telepítése (opcionális, git-hez):<br>
     https://git-for-windows.github.io/
 3.  Visual Studio Code (User Installer) telepítése:<br>
@@ -21,9 +20,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Auto Rename Tag<br>
     https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
 
-    - Beautify<br>
-    https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
-
     - Debugger for Chrome<br>
     https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 
@@ -32,9 +28,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
 
     - JavaScript (ES6) code snippets<br>
     https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
-
-    - Markdown All in One<br>
-    https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
 
     - npm<br>
     https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script 
@@ -45,17 +38,11 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Spell Right<br>
     https://marketplace.visualstudio.com/items?itemName=ban.spellright
 
-    - TSLint<br>
-    https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
-    
-    - TSLint Vue (vscode-tslint-vue)<br>
-    https://marketplace.visualstudio.com/items?itemName=prograhammer.tslint-vue
-
     - Vetur<br>
     https://marketplace.visualstudio.com/items?itemName=octref.vetur
 
-    - Vue Peek<br>
-    https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek
+    - vscode-pdf<br>
+    https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf
 
     - további kiterjesztések telepítése igény szerint
     

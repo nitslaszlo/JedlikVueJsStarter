@@ -19,7 +19,7 @@ import FontAwesomeIcons from "./components/FontAwesomeIcons.vue";
     FontAwesomeIcons
   }
 })
-export default class App extends Vue { }
+export default class App extends Vue {}
 </script>
 
 <style>

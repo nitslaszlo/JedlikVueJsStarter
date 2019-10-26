@@ -12,10 +12,34 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 
 // https://fontawesome.com/icons?d=gallery&s=solid&m=free
 import {
-  faCoffee, faSpinner, faWrench, faAmbulance, faEdit, faCircle, faCheck, faChessQueen,
-  faPlus, faEquals, faArrowRight, faPencilAlt, faComment, faHeadphones, faSquare,
-  faCalendar, faCertificate, faEnvelope, faTimes, faBookmark, faHeart, faPlay,
-  faSun, faMoon, faCocktail, faGlassMartini, faBeer, faStar
+  faCoffee,
+  faSpinner,
+  faWrench,
+  faAmbulance,
+  faEdit,
+  faCircle,
+  faCheck,
+  faChessQueen,
+  faPlus,
+  faEquals,
+  faArrowRight,
+  faPencilAlt,
+  faComment,
+  faHeadphones,
+  faSquare,
+  faCalendar,
+  faCertificate,
+  faEnvelope,
+  faTimes,
+  faBookmark,
+  faHeart,
+  faPlay,
+  faSun,
+  faMoon,
+  faCocktail,
+  faGlassMartini,
+  faBeer,
+  faStar
 } from "@fortawesome/free-solid-svg-icons"; // 960db
 
 // https://fontawesome.com/icons?d=gallery&s=regular&m=free
@@ -23,16 +47,57 @@ import { faAngry } from "@fortawesome/free-regular-svg-icons"; // 151db
 
 // https://fontawesome.com/icons?d=gallery&s=brands&m=free
 import {
-  faJs, faVuejs, faJava, faPhp, faPython, faCss3, faHtml5, faFacebookF
+  faJs,
+  faVuejs,
+  faJava,
+  faPhp,
+  faPython,
+  faCss3,
+  faHtml5,
+  faFacebookF
 } from "@fortawesome/free-brands-svg-icons"; // 433db
 
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from "@fortawesome/vue-fontawesome";
 
-library.add(faCoffee, faSpinner, faWrench, faAmbulance, faEdit, faCircle, faCheck, faChessQueen,
-  faPlus, faEquals, faArrowRight, faPencilAlt, faComment, faHeadphones, faSquare,
-  faCalendar, faCertificate, faEnvelope, faTimes, faBookmark, faHeart, faPlay,
-  faSun, faMoon, faCocktail, faGlassMartini, faBeer, faStar, faJs, faVuejs, faJava, faPhp,
-  faPython, faCss3, faHtml5, faFacebookF, faAngry);
+library.add(
+  faCoffee,
+  faSpinner,
+  faWrench,
+  faAmbulance,
+  faEdit,
+  faCircle,
+  faCheck,
+  faChessQueen,
+  faPlus,
+  faEquals,
+  faArrowRight,
+  faPencilAlt,
+  faComment,
+  faHeadphones,
+  faSquare,
+  faCalendar,
+  faCertificate,
+  faEnvelope,
+  faTimes,
+  faBookmark,
+  faHeart,
+  faPlay,
+  faSun,
+  faMoon,
+  faCocktail,
+  faGlassMartini,
+  faBeer,
+  faStar,
+  faJs,
+  faVuejs,
+  faJava,
+  faPhp,
+  faPython,
+  faCss3,
+  faHtml5,
+  faFacebookF,
+  faAngry
+);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 Vue.component("font-awesome-layers", FontAwesomeLayers); // if you need layers

@@ -1,29 +1,36 @@
 {
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": false,
     "editor.minimap.enabled": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "extensions.ignoreRecommendations": true,
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "html.format.wrapLineLength": 0,
-    "files.autoSave": "afterDelay",
-    "files.eol": "\r\n",
-    "files.exclude": {
-        "**/.git": true,
-        "**/.gitignore": false,
-        "**/.vscode": false,
-        "**/tsconfig.json": false,
-        "**/tslint.json": false,
-        "**/package-lock.json": true,
-	    "**/js": true,
-        "**/node_modules": true,
-        "**/*.js.map": true,
-        "**/*.npmrc": true
+    "eslint.alwaysShowStatus": true,
+    "eslint.enable": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false,
     },
-    "spellright.notificationClass": "information",
+    "[javascriptreact]": {
+        "editor.formatOnSave": false,
+    },
+    "[typescript]": {
+        "editor.formatOnSave": false,
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": false,
+    },
+    "[vue]": {
+        "editor.formatOnSave": false,
+    },
     "spellright.language": [
         "en",
         "hu"
@@ -31,19 +38,23 @@
     "spellright.documentTypes": [
         "latex"
     ],
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
-    "vetur.format.defaultFormatter.ts": "vscode-typescript",
-    "vetur.format.defaultFormatterOptions": {
-        "js-beautify-html": {
-            "wrap_line_length": 120,
-            "wrap_attributes": "force-aligned"
-        }
-    }
+    "terminal.integrated.rendererType": "dom",
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.gitignore": false,
+        "**/.vscode": false,
+        "**/tsconfig.json": false,
+        "**/tslint.json": false,
+        "**/package-lock.json": true,
+        "**/dist": true,
+        "**/public": false,
+        "**/node_modules": true,
+        "**/*.js.map": true,
+        "**/*.npmrc": true
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetchPeriod": 60,
+    "git.autofetch": true
 }
-
-// Line wrapping of attributes.
-//- Auto: Only when the trip length is exceeded will the property be newline.
-//- Force: Break each attribute except the first one.
-//- Force-aligned: Break each attribute except the first one and keep it aligned.
-//- Force-expand-multiline: Break each attribute.
-//- aligned-multiple: Vertical alignment of attributes when the length of the break line is exceeded.
