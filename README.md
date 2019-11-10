@@ -23,6 +23,9 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - Debugger for Chrome<br>
     https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 
+    - ESLint<br>
+    https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
     - GitLens (telepítése opcionális, kiterjesztett Git szolgáltatások)<br>
     https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 

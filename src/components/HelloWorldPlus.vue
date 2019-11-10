@@ -45,7 +45,7 @@ export default class HelloWorldPlus extends Vue {
   private napok = ["hétfő", "kedd", "szerda"];
   private inputNap: string;
 
-  constructor() {
+  public constructor() {
     super();
     this.felkialtojelDarab = 3;
     this.nev = "Jedlik Ányos";
