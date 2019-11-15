@@ -4,15 +4,15 @@
       <div>
         <span>Kérem a neved</span>
       </div>
-      <input type="text" v-model="nev" />
+      <input v-model="nev" type="text" />
     </div>
 
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
-    <button type="button" :disabled="felkialtojelDarab == 10" v-on:click="onClick('+')">
+    <button type="button" :disabled="felkialtojelDarab == 10" @click="onClick('+')">
       Plus
     </button>
-    <button type="button" :disabled="felkialtojelDarab == 1" v-on:click="onClick('-')">
+    <button type="button" :disabled="felkialtojelDarab == 1" @click="onClick('-')">
       Minus
     </button>
     <ol>
@@ -22,7 +22,7 @@
       <div>
         <span>Kérem a nap nevét</span>
       </div>
-      <input type="text" v-model="inputNap" />
+      <input v-model="inputNap" type="text" />
     </div>
 
     <button type="button" :disabled="!joNapHozzadni(iNap)" @click="hozzadNap()">
