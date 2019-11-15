@@ -1,4 +1,4 @@
-# Vue.js + Typescript + GitHub + TSLint + Bootstrap4 +Visual Studio Code
+# Vue.js + TypeScript + GitHub + ESLint + Prettier + Visual Studio Code
 
 ## netlify link a program teszteléséhez:
 https://ecstatic-swirles-d68c4f.netlify.com/
@@ -80,12 +80,6 @@ https://ecstatic-swirles-d68c4f.netlify.com/
     - File\Open Folder... (vagy)
     - Project mappa helyi menüjéből: Open with Code
     - Vagy CMD ablakból: CD my-first-vuejs-app majd "code ."
-5. TSLint "recommended" szabályok módosítása<br>
-    A "recommended" szabályok (rules) vannak bekapcsolva.<br>
-    Módosítani a tslint.json állományokban lehet őket a rules szekcióban<br>
-    Szabályok és leírásuk: https://palantir.github.io/tslint/rules/
-6. package.json, tsconfig.json, .gitignore, launch.json, settings.json, tasks.json<br>
-   állományok létrehozása/beállítása a "jedlikes starter template" szerint
 
 
 ## Fejlesztés, tesztelés
