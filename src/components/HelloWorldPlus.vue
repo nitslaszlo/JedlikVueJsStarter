@@ -1,34 +1,34 @@
 <template>
-  <div class="m-5" id="app">
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <span class="input-group-text">Kérem a neved</span>
+  <div>
+    <div>
+      <div>
+        <span>Kérem a neved</span>
       </div>
-      <input type="text" class="form-control" v-model="nev" />
+      <input type="text" v-model="nev" />
     </div>
 
     <h1>Hello {{ nev }}{{ felkialtojelek }}</h1>
     <p>Felkiáltójelek száma: {{ felkialtojelDarab }}</p>
-    <button type="button" class="btn m-2 btn-success" :disabled="felkialtojelDarab == 10" v-on:click="onClick('+')">
+    <button type="button" :disabled="felkialtojelDarab == 10" v-on:click="onClick('+')">
       Plus
     </button>
-    <button type="button" class="btn btn-danger" :disabled="felkialtojelDarab == 1" v-on:click="onClick('-')">
+    <button type="button" :disabled="felkialtojelDarab == 1" v-on:click="onClick('-')">
       Minus
     </button>
     <ol>
       <li v-for="nap in napok" :key="nap">{{ nap }}</li>
     </ol>
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <span class="input-group-text">Kérem a nap nevét</span>
+    <div>
+      <div>
+        <span>Kérem a nap nevét</span>
       </div>
-      <input type="text" class="form-control" v-model="inputNap" />
+      <input type="text" v-model="inputNap" />
     </div>
 
-    <button type="button" class="btn mr-2 btn-success" :disabled="!joNapHozzadni(iNap)" @click="hozzadNap()">
+    <button type="button" :disabled="!joNapHozzadni(iNap)" @click="hozzadNap()">
       Nap hozzáadása
     </button>
-    <button type="button" class="btn btn-danger" :disabled="!joNapTorolni(iNap)" @click="torolNap()">
+    <button type="button" :disabled="!joNapTorolni(iNap)" @click="torolNap()">
       Nap törlése
     </button>
   </div>
@@ -86,7 +86,7 @@ export default class HelloWorldPlus extends Vue {
   }
 
   @Watch("felkialtojelDarab")
-  private onNumChanged(value: number, oldValue: number) {
+  private onNumChanged() {
     this.felkialtojelek = "!".repeat(this.felkialtojelDarab);
   }
 }

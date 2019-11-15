@@ -1,8 +1,7 @@
 <template>
-  <div id="app">
+  <div id="content">
     <HelloWorld msg="Hello World!" />
     <HelloWorldPlus />
-    <FontAwesomeIcons />
   </div>
 </template>
 
@@ -10,20 +9,18 @@
 import { Component, Vue } from "vue-property-decorator";
 import HelloWorld from "./components/HelloWorld.vue";
 import HelloWorldPlus from "./components/HelloWorldPlus.vue";
-import FontAwesomeIcons from "./components/FontAwesomeIcons.vue";
 
 @Component({
   components: {
     HelloWorld,
-    HelloWorldPlus,
-    FontAwesomeIcons
+    HelloWorldPlus
   }
 })
 export default class App extends Vue {}
 </script>
 
 <style>
-#app {
+#content {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
 }
 </style>
